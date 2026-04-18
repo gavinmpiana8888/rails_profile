@@ -1,0 +1,146 @@
+@import "bootstrap";
+
+body {
+  background-color: #0f172a;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  border-bottom: 3px solid #0d6efd;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.hero-box {
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  border-radius: 20px;
+  padding: 50px 30px;
+}
+
+.footer-style {
+  background-color: #020617;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.highlight {
+  color: #0d6efd;
+}
+
+.custom-card {
+  background-color: #1e293b;
+  border: none;
+  border-radius: 14px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.35);
+  color: white;
+  overflow: hidden;
+}
+
+.card-title,
+.card-text,
+.card-body,
+.card h4,
+.card h5,
+.card p {
+  color: white;
+}
+
+.list-group-item {
+  background-color: #1e293b;
+  color: white;
+  border: 1px solid #334155;
+}
+
+.form-control,
+.form-control:focus {
+  background-color: #1e293b;
+  color: white;
+  border: 1px solid #475569;
+  box-shadow: none;
+}
+
+.form-label {
+  color: white;
+}
+
+.contact-box {
+  background-color: #1e293b;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.35);
+}
+
+.btn-custom {
+  border-radius: 10px;
+  padding: 10px 18px;
+  font-weight: 600;
+}
+
+.about-icon,
+.resume-icon {
+  color: #0d6efd;
+}
+
+/* HOME PROFILE PHOTO */
+.profile-img {
+  display: block !important;
+  width: 120px !important;
+  height: 120px !important;
+  max-width: 120px !important;
+  max-height: 120px !important;
+  object-fit: cover !important;
+  border-radius: 50%;
+  border: 3px solid #0d6efd;
+  margin: 0 auto;
+}
+
+/* PORTFOLIO PROJECT PHOTOS */
+.project-img {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 120px !important;
+  max-height: 120px !important;
+  object-fit: cover !important;
+  overflow: hidden !important;
+}
+
+/* NAVBAR LINKS */
+.navbar .nav-link {
+  color: white !important;
+}
+
+.navbar .nav-link:hover {
+  color: #0d6efd !important;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .hero-box {
+    padding: 30px 20px;
+  }
+
+  .profile-img {
+    width: 100px !important;
+    height: 100px !important;
+  }
+
+  .project-img {
+    height: 100px !important;
+  }
+img.project-img,
+img.project-img-2 {
+  width: 40% !important;
+  height: 20px !important;
+  max-height: 30px !important;
+  object-fit: cover !important;
+  display: block !important;
+}
+img.project-img-2 {
+  object-position: center center !important;
+}	
+}

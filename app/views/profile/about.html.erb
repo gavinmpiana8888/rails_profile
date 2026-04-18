@@ -1,0 +1,48 @@
+<div class="container py-5">
+  <div class="text-center mb-5">
+    <h2 class="section-title">About Me</h2>
+    <p class="lead mt-3">
+      I am a student athlete focused on economics, analytics, communication, and leadership.
+    </p>
+  </div>
+
+  <div class="row g-4">
+    <div class="col-md-6">
+      <div class="card custom-card h-100">
+        <div class="card-body p-4">
+          <h4 class="card-title mb-3">
+            <%= bootstrap_icon "trophy-fill", width: 20, height: 20, class: "me-2 about-icon" %>
+            Soccer
+          </h4>
+          <p class="card-text">
+            I compete as a college soccer player and have developed teamwork,
+            discipline, leadership, and time management through athletics.
+          </p>
+          <%= link_to contact_path, class: "btn btn-primary btn-custom mt-2" do %>
+            <%= bootstrap_icon "chat-dots-fill", width: 18, height: 18, class: "me-2" %>
+            Get In Touch
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card custom-card h-100">
+        <div class="card-body p-4">
+          <h4 class="card-title mb-3">
+            <%= bootstrap_icon "bar-chart-fill", width: 20, height: 20, class: "me-2 about-icon" %>
+            Analytics
+          </h4>
+          <p class="card-text">
+            I have experience with statistics, regression analysis, economics,
+            and technical coursework that helps me break down problems clearly.
+          </p>
+          <%= link_to portfolio_path, class: "btn btn-outline-light btn-custom mt-2" do %>
+            <%= bootstrap_icon "folder-fill", width: 18, height: 18, class: "me-2" %>
+            See Projects
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

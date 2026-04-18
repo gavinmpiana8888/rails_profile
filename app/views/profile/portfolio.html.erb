@@ -1,0 +1,51 @@
+<div class="container py-5">
+  <div class="text-center mb-5">
+    <h2 class="section-title">My Portfolio</h2>
+    <p class="lead mt-3">Some of my academic and technical work.</p>
+  </div>
+
+  <div class="alert alert-primary shadow-sm">
+    <%= bootstrap_icon "info-circle-fill", width: 18, height: 18, class: "me-2" %>
+    New sports analytics projects will be added soon.
+  </div>
+
+  <div class="row g-4 mt-1">
+    <div class="col-md-6">
+      <div class="card custom-card h-100">
+        <%= image_tag "lift.jpg", class: "project-img", alt: "IMDb Data Structures Project" %>
+        <div class="card-body p-4">
+          <h5 class="card-title">
+            <%= bootstrap_icon "diagram-3-fill", width: 18, height: 18, class: "me-2" %>
+            IMDb Data Structures Project
+          </h5>
+          <p class="card-text">
+            Built a movie network using graph-style thinking and structured relationships between data.
+          </p>
+          <a href="#" class="btn btn-primary btn-custom">
+            <%= bootstrap_icon "code-slash", width: 18, height: 18, class: "me-2" %>
+            View Project
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card custom-card h-100">
+        <%= image_tag "Post2.JPG", class: "project-img project-img-2", alt: "Regression Analysis Project" %>
+        <div class="card-body p-4">
+          <h5 class="card-title">
+            <%= bootstrap_icon "graph-up-arrow", width: 18, height: 18, class: "me-2" %>
+            Regression Analysis Project
+          </h5>
+          <p class="card-text">
+            Studied attendance and GPA relationships using statistical analysis and interpretation.
+          </p>
+          <a href="#" class="btn btn-success btn-custom">
+            <%= bootstrap_icon "file-earmark-bar-graph-fill", width: 18, height: 18, class: "me-2" %>
+            View Analysis
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
